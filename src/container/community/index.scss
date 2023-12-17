@@ -1,0 +1,57 @@
+@use '../../lib/style.scss' as style;
+
+.button__community {
+	background-color: #F46F17;
+	color: #FFFFFF;
+	border-radius: 10px;
+	height: 46px;
+}
+
+.title--2 {
+	font-size: 18px;
+	color: #121212;
+}
+
+.post__community {
+	border-radius: 10px;
+	background-color: #f7f7f7;
+
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+
+	&--viewed {
+		background-color: transparent;
+		border-color: #e6e6e6;
+
+		.post__info {
+			color: #888888;
+		}
+	}
+}
+
+.tabs {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.tab {
+	display: flex;
+	justify-content: center;
+	padding: 8px;
+	border-bottom: 2px solid #888888;
+	width: 171px;
+}
+
+.tab__text {
+	text-decoration: none;
+	color: #121212;
+	font-size: 16px;
+}
+
+.active {
+	background-color: #cac6c6;
+	border-bottom: 2px solid #121212;
+	width: 171px;
+}
